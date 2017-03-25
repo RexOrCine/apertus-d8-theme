@@ -1,0 +1,23 @@
+/**
+ * Place your custom styles here.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    color: var(--apertusDarkGrey) !important;
+    background: var(--apertusLightGrey) !important;
+
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--apertusOrange) !important;
+}
