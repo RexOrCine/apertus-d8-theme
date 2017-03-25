@@ -1,0 +1,17 @@
+name: apertus
+type: theme
+description: 'apertus° Drupal 8 theme'
+core: 8.x
+
+base theme: bootstrap
+
+libraries:
+  - apertus/global-styling
+
+# Regions
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
+
