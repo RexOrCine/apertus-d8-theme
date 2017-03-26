@@ -6,18 +6,36 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+
+    margin-top: 0;
 }
 
-.navbar {
-    color: var(--apertusDarkGrey) !important;
-    background: var(--apertusLightGrey) !important;
+.navbar
+{
+    padding-top: 1em;
+}
 
-    font-size: 1.2em;
-    font-weight: bold;
+.navbar-default {
+    color: var(--darkText);
+    background: var(--apertusLightGrey);
+
+    font-size: 1.3em;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: var(--darkText);
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: var(--apertusOrange);
 }
 
 .navbar-brand {
     font-size: 2em;
     font-weight: bold;
-    color: var(--apertusOrange) !important;
+    /*color: var(--apertusOrange);*/
 }

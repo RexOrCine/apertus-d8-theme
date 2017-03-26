@@ -1,7 +1,8 @@
 global-styling:
   css:
     component:
+        css/apertusCI.css: {}
         css/style.css: {}
-        css/apertusCI.css: {}      
+     
 
 
