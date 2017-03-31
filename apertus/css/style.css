@@ -11,8 +11,9 @@ body {
 
 .navbar {
     padding-top: 0.5em;
-    border-bottom: 1px solid #2c2726;
+    border-bottom: 1px solid var(--apertusDarkGrey);
     border-radius: 0;
+    margin-bottom: 0;
 }
 
 .navbar-default {
@@ -39,10 +40,44 @@ body {
     /*color: var(--apertusOrange);*/
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
     .navbar-nav.navbar-center {
         position: absolute;
         left: 50%;
         transform: translatex(-50%);
     }
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#block-videoslideshow {
+    background: var(--apertusMediumGrey);
+    padding: 2em;
+    width: 100%;
+    height: 26em;
+    display: flex;
+}
+
+#block-videoslideshow div {
+    width: 100%;
+}
+
+#videoContainer {
+    width: 100%;
+    height: 100%;
+}
+
+#videoLeft {
+    width: 50%;
+    height: 100%;
+    padding-right: 1em;
+}
+
+#videoRight {
+    width: 50%;
+    height: 100%;
+    padding-left: 1em;
 }

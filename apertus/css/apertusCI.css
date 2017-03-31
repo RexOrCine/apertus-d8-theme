@@ -1,9 +1,8 @@
 :root {
-  --apertusGrey: #C3C1C0;
-  --apertusOrange: #FA8756;
-
-  --apertusDarkGrey: #545454;
-  --apertusLightGrey: #e1e1e1;
-
-  --darkText: #2c2726;
+    --apertusGrey: #C3C1C0;
+    --apertusOrange: #FA8756;
+    --apertusDarkGrey: #545454;
+    --apertusMediumGrey: #e1e1e1;
+    --apertusLightGrey: #f4f4f4;
+    --darkText: #2c2726;
 }
