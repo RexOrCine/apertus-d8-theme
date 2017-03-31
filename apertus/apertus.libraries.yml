@@ -3,6 +3,4 @@ global-styling:
     component:
         css/apertusCI.css: {}
         css/style.css: {}
-     
-
-
+        

@@ -3,34 +3,33 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
 body {
     font-family: 'Roboto', sans-serif;
-
     margin-top: 0;
+    background-color: var(--apertusLightGrey);
 }
 
-.navbar
-{
-    padding-top: 1em;
+.navbar {
+    padding-top: 0.5em;
+    border-bottom: 1px solid #2c2726;
+    border-radius: 0;
 }
 
 .navbar-default {
     color: var(--darkText);
     background: var(--apertusLightGrey);
-
     font-size: 1.3em;
 }
 
 .navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
     color: var(--darkText);
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
     color: var(--apertusOrange);
 }
 
@@ -38,4 +37,12 @@ body {
     font-size: 2em;
     font-weight: bold;
     /*color: var(--apertusOrange);*/
+}
+
+@media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
 }

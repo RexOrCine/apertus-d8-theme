@@ -10,8 +10,10 @@ libraries:
 
 # Regions
 regions:
-  navigation: 'Navigation'
-  navigation_collapsible: 'Navigation (Collapsible)'
+  navigation_left: 'Navigation (left)'
+  navigation_center: 'Navigation (center)'
+  navigation_right: 'Navigation (right)'
+  #navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
   highlighted: 'Highlighted'
   help: 'Help'
