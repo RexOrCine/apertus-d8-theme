@@ -1,5 +1,6 @@
-# Axiom Beta Software
-[![pipeline status](https://gitlab.com/apertus/beta-software/badges/master/pipeline.svg)](https://gitlab.com/apertus/beta-software/commits/master)
+# apertus.org Redesign
+
+We'd like to redesign the apertus.org them and create a shop facility inside the website. A lot of the mock and text work has been done and briefs are as follows:
 
 Firmware required to boot & operate the [Apertus Axiom Beta Camera](https://www.apertus.org/axiom-beta).
 
